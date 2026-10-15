@@ -78,11 +78,7 @@ contents (TOCs), targets, and other configuration files.
   
   |Term   |Meaning  | Example|
   |-------|--------|--------|
-  
-  Project                 The complete set of     Identity product
-                          source content and      documentation
-                          publishing              
-                          configuration           
+  |Project |The complete set of source content and publishing configuration |Identity product documentation |          
 
   Topic                   A standalone content    Configure SSO
                           file that explains one  
