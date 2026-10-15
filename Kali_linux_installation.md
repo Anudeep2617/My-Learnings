@@ -246,7 +246,7 @@ Purpose: From the available options, select Workstation 17.5 or later.
 
 Purpose: Select Next, choose the option to apply the upgrade after the virtual machine, select Next, then select Finish.
 
-###3 7.5 Close the upgrade workflow.
+#### 7.5 Close the upgrade workflow.
 
 Purpose: Select Close.
 
@@ -383,7 +383,5 @@ The installation is considered complete when VMware Workstation Pro launches suc
 
 ## 11. Conclusion
 
-Following this guide provides a structured process for preparing a Windows host, installing VMware Workstation Pro, deploying Kali Linux, validating the virtual environment, and establishing a recovery point. The resulting virtual lab can be used as a controlled environment for cybersecurity learning, testing, and
-
-development activities.
+Following this guide provides a structured process for preparing a Windows host, installing VMware Workstation Pro, deploying Kali Linux, validating the virtual environment, and establishing a recovery point. The resulting virtual lab can be used as a controlled environment for cybersecurity learning, testing, and development activities.
 
