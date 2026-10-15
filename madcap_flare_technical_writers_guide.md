@@ -75,9 +75,10 @@ contents (TOCs), targets, and other configuration files.
 
 ## 2. Core concepts and terminology
 
-  -----------------------------------------------------------------------
-  Term                    Meaning                 Example
-  ----------------------- ----------------------- -----------------------
+  
+  |Term   |Meaning  | Example|
+  |-------|--------|--------|
+  
   Project                 The complete set of     Identity product
                           source content and      documentation
                           publishing              
