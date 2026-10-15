@@ -79,60 +79,20 @@ contents (TOCs), targets, and other configuration files.
   |Term   |Meaning  | Example|
   |-------|--------|--------|
   |Project |The complete set of source content and publishing configuration |Identity product documentation |          
-
-  Topic                   A standalone content    Configure SSO
-                          file that explains one  
-                          subject or task         
-
-  TOC                     An outline/navigation   Installation \>
-                          structure that          Configure the server
-                          organizes topics        
-
-  Snippet                 Reusable formatted      A common security note
-                          content inserted into   
-                          multiple topics         
-
-  Variable                Reusable short text or  ProductName,
-                          dynamic value           VersionNumber
-
-  Stylesheet              Rules controlling the   Heading styles, tables,
-                          appearance of content   notes
-
-  Condition tag           A label used to include CloudOnly, OnPremOnly
-                          or exclude content in a 
-                          target                  
-
-  Target                  A configuration for a   HTML5 Help, PDF User
-                          particular output       Guide
-
-  Skin                    The presentation and    HTML5 navigation design
-                          navigation framework    
-                          for supported online    
-                          outputs                 
-
-  Page layout             Print-page design such  PDF title page and
-                          as headers, footers,    footer
-                          and margins             
-
-  Cross-reference         A link to another topic See Configure SSO
-                          or bookmark within the  
-                          project                 
-
-  Repository              Version-controlled      Git repository
-                          project history and     
-                          collaboration area      
-
-  Branch                  An independent line of  feature/add-sso-guide
-                          work in Git             
-
-  Pull request (PR)       A request to review and Merge documentation
-                          merge branch changes    updates
-
-  CMS/CCMS                A system for managing   Enterprise component
-                          content, reuse,         content management
-                          permissions, and        
-                          workflows               
-  -----------------------------------------------------------------------
+  |Topic |A standalone content file that explains one subject or task |Configure SSO |  
+  |Table of Contents (ToC) | An outline/navigation structure that organize topics | Installation > Configure the server |
+  |Snippet | Reusable formatted content inserted into multiple topics | A common security note |                              |Variable | Reusable short text or dynamic value | Product name, Version number |
+  |Style sheet | Rules controlling the appearance of content | Heading styles, tables, notes |
+  |Condition tag | A label used to include or exclude content in a target |Cloud only On Prem Only |
+  |Target |A configuration for a particular output | HTML5 help, PDF user guide |
+  |Skin | The presentation and navigation framework for supported online outputs | HTML5 navigation design |
+  |Page layout | Print-page design such as headers, footers and margins | PDF title page and footer |
+  |Cross-reference | A link to another topic or bookmark within the project | See Configure SSO |
+  |Repository | Version-controlled project history and collaboration area | Git repository |
+  |Branch | An independent line of work in Git | feature/add-sso guide |
+  |Pull request (PR) | A request to review and merge branch changes | Merge documentation updates |
+  |CMS/CCMS | A system for managing content, reuse, permissions and workflows | Enterprise component content management |
+  
 
 A common Flare Desktop project uses a `Content` folder for topics and
 resources, a `Project` folder for project configuration, and dedicated
