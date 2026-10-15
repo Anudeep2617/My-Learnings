@@ -711,24 +711,13 @@ builder or current Flare help rather than guessing the syntax.
 
 ### 12.3 Conditions versus variables versus snippets
 
-  -----------------------------------------------------------------------
-  Need                                Preferred mechanism
-  ----------------------------------- -----------------------------------
-  A product name or version number    Variable
-  changes                             
-
-  A reusable paragraph or warning     Snippet
-  appears in many topics              
-
-  A section should appear only in     Condition tag
-  cloud documentation                 
-
-  A section belongs in a different    TOC
-  order or navigation hierarchy       
-
-  The same topic needs different      Output-specific stylesheet/target
-  presentation in HTML5 and PDF       settings, where appropriate
-  -----------------------------------------------------------------------
+|Need | Preferred mechanism |
+|---- |---- |
+|A product name or version number changes |Variable |
+|A reusable paragraph or warning appears in many topics |Snippet |
+|A section should appear only in cloud documentation |Condition tag |
+|A section belongs in a different order or navigation hierarchy |Table of Contents (ToC) |
+|The same topic needs different presentation in HTML5 and PDF |Output-specific stylesheet/target settings, where appropriate |
 
 Avoid excessive conditions. If a topic becomes full of complex
 conditional blocks, separate topics or distinct targets may be easier to
@@ -1229,41 +1218,19 @@ Check:
 
 ### 18.3 Common issues
 
-  -----------------------------------------------------------------------
-  Problem                             What to check
-  ----------------------------------- -----------------------------------
-  Topic missing from output           Is it included through the selected
-                                      TOC or target settings?
-
-  Image does not appear               Is the file in the project and is
-                                      its reference valid?
-
-  Snippet change affects many topics  Identify all snippet usages and
-                                      validate each context.
-
-  Variable displays unexpected text   Check the variable set and
-                                      target-specific overrides.
-
-  Content appears in the wrong output Check condition tags and target
-                                      expressions.
-
-  TOC navigation is incorrect         Check the selected TOC, linked
-                                      files, labels, and hierarchy.
-
-  PDF formatting is poor              Check page layouts, print styles,
-                                      table widths, and page breaks.
-
-  Git reports a conflict              Inspect both changes, resolve
-                                      markup carefully, then build.
-
-  Build fails                         Review the build log and fix broken
-                                      references, invalid markup, or
-                                      configuration issues.
-
-  Output differs by format            Review target-specific styles,
-                                      conditions, and supported features.
-  -----------------------------------------------------------------------
-
+|Problem |What to check |
+|---- |---- |
+|Topic missing from output | Is it included through the selected TOC or target settings |
+|Image does not appear |Is it included through the selected TOC or target settings? |
+|Snippet change affects many topics |Identify all snippet usages and validate each context. |
+|Variable displays unexpected text |Check the variable set and target-specific overrides |
+|Content appears in the wrong output |Check condition tags and target expressions. |
+|TOC navigation is incorrect |Check the selected TOC, linked files, labels, hierarchy. |
+|PDF formatting is poor |Check page layouts, print styles, table widths, and page breaks. |
+|Git reports a conflict |Inspect both changes, resolve markup carefully, then build. |
+|Build fails |Review the build log and fix broken references, invalid markup, or configuration issues. |
+|Output differs by format |Review target-specific styles, conditions, and supported features. |  
+ 
 ### 18.4 Final pre-publication checklist
 
 -   [ ] All required topics are present.
